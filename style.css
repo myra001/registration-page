@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body{
+    background-image: url("/bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%);
+}
+
+main{
+    width: 100%;
+    color: white;
+    align-self: center;
+}
+.column{
+    float: left;
+    width: 50%;
+    padding: 100px;
+    top: 50%;
+    align-items: center;
+    text-decoration: white;
+}
+
+.left-side{
+    padding-top: 15em;
+}
+
+.right-side{
+    padding-top: 10em;
+    padding-left: 0;
+    width: 45%;
+}
+
+.form{
+    background-color: white;
+    padding: 30px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btn{
+    background-color: rgb(135, 238, 137);
+    padding: 15px 20px;
+    margin: 8px;
+    border: 1px solid rgb(135, 238, 137);
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+button:hover{
+   border: 2px solid   hsl(0, 0%, 95%);
+   cursor: pointer;
+   color: hsl(0, 0%, 95%);
+ }
+
+.layer-one{
+    background-color: rgb(167, 19, 167);
+    border: 1px solid rgb(167, 19, 167);
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@media {
+    
+}
